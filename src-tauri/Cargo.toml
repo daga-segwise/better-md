@@ -1,6 +1,6 @@
 [package]
 name = "better-md"
-version = "0.1.2"
+version = "0.1.3"
 description = "A native macOS Markdown reader"
 authors = ["Kush Daga"]
 edition = "2021"
