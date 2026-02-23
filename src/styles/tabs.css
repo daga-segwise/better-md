@@ -19,7 +19,8 @@
   border-right: 1px solid var(--border);
   cursor: pointer;
   white-space: nowrap;
-  max-width: 180px;
+  min-width: 0;
+  flex-shrink: 1;
   gap: 6px;
   color: var(--text-muted);
   background: transparent;

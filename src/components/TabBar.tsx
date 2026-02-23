@@ -18,7 +18,7 @@ export default function TabBar({ tabs, activeIndex, onSelect, onClose }: Props) 
           className={`tab ${i === activeIndex ? 'active' : ''}`}
           onClick={() => onSelect(i)}
         >
-          <span>{tab.name}</span>
+          <span className="tab-name">{tab.name}</span>
           <button
             className="tab-close"
             onClick={(e) => { e.stopPropagation(); onClose(i); }}
