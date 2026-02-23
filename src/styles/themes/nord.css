@@ -1,0 +1,15 @@
+[data-theme="nord"] {
+  --bg: #2e3440;
+  --bg-secondary: #3b4252;
+  --text: #d8dee9;
+  --text-muted: #81a1c1;
+  --text-faint: #4c566a;
+  --accent: #88c0d0;
+  --accent-hover: #8fbcbb;
+  --border: #3b4252;
+  --code-bg: #3b4252;
+  --sidebar-bg: #2e3440;
+  --hover-bg: rgba(136, 192, 208, 0.1);
+  --blockquote-text: #81a1c1;
+  --table-row-alt: #3b4252;
+}

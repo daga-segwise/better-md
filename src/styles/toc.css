@@ -1,0 +1,43 @@
+.toc-sidebar {
+  width: 280px;
+  min-width: 280px;
+  overflow-y: auto;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  padding: 16px;
+  margin-left: -280px;
+  transition: margin-left 0.2s ease;
+}
+
+.toc-sidebar.visible {
+  margin-left: 0;
+}
+
+.toc-link {
+  display: block;
+  padding: 4px 8px;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.875em;
+  line-height: 1.5;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.toc-link:hover {
+  background: var(--hover-bg);
+  color: var(--text);
+}
+
+.toc-link.active {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.toc-link[data-level="2"] {
+  padding-left: 20px;
+}
+
+.toc-link[data-level="3"] {
+  padding-left: 36px;
+}

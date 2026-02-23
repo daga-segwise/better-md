@@ -1,0 +1,15 @@
+[data-theme="dark"] {
+  --bg: #1e1e1e;
+  --bg-secondary: #252525;
+  --text: #e0e0e0;
+  --text-muted: #999999;
+  --text-faint: #666666;
+  --accent: #60a5fa;
+  --accent-hover: #93bbfd;
+  --border: #333333;
+  --code-bg: #2d2d2d;
+  --sidebar-bg: #252525;
+  --hover-bg: rgba(255, 255, 255, 0.08);
+  --blockquote-text: #aaaaaa;
+  --table-row-alt: #252525;
+}

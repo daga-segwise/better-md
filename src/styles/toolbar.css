@@ -1,0 +1,42 @@
+.toolbar {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 16px;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  -webkit-app-region: drag;
+  user-select: none;
+}
+
+.toolbar button {
+  -webkit-app-region: no-drag;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 6px 8px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+}
+
+.toolbar button:hover {
+  background: var(--hover-bg);
+  color: var(--text);
+}
+
+.toolbar-title {
+  flex: 1;
+  font-weight: 500;
+  font-size: 0.875em;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 70px;
+}
