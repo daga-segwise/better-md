@@ -18,6 +18,14 @@ Download the latest `.dmg` from [Releases](../../releases/latest).
 - **Apple Silicon** (M1/M2/M3/M4): `Better MD_*_aarch64.dmg`
 - **Intel**: `Better MD_*_x64.dmg`
 
+> **macOS Gatekeeper notice:** The app is not code-signed, so macOS will block it on first launch. After installing, run:
+>
+> ```sh
+> xattr -cr "/Applications/Better MD.app"
+> ```
+>
+> Then open the app normally.
+
 ## Keyboard Shortcuts
 
 | Shortcut | Action |
